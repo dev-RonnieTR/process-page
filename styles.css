@@ -56,6 +56,10 @@ html {
     flex-wrap: wrap;
 }
 
+.content, .flex-row {
+    row-gap: calc(var(--gap-1) * 2);
+}
+
 .feature {
   flex: 1 1 var(--feature-min-width);
 }
