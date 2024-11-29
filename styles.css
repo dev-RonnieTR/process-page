@@ -24,6 +24,16 @@ html {
   --color-5: #6b7280;
 }
 
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 0  14rem;
+}
+
+
 /* TYPOGRAPHY */
 .small-title {
   color: var(--color-1);
