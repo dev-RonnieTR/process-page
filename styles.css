@@ -116,3 +116,15 @@ html {
   color: var(--color-1);
   font-weight: 600;
 }
+
+@media (min-width: 1281px) {
+    :root {
+        --font-size-root: clamp(16px, 1.25vw, 20px)
+    }
+}
+
+@media (max-width: 320px) {
+    :root {
+        --font-size-root: clamp(12px, 5vw, 16px)
+    }
+}
