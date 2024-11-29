@@ -26,47 +26,54 @@ html {
   --gap-2: 1.5rem;
 }
 
-.background, .heading {
-    position: relative;
-    z-index: 1;
+.background,
+.heading {
+  position: relative;
+  z-index: 1;
 }
 .heading {
-    padding: 0 7%;
-    margin: var(--gap-2) 0;
-    overflow: hidden;
+  padding: 0 7%;
+  margin: var(--gap-2) 0;
+  overflow: hidden;
 }
 .heading__item {
-    width: min(100%, 43rem);
-    margin: var(--gap-1) 0;
+  width: min(100%, 43rem);
+  margin: var(--gap-1) 0;
 }
 .content {
-    padding: var(--gap-2) 5%;
+  padding: var(--gap-2) 5%;
 }
 
 .content {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .feature {
-    flex: 0 0 17rem;
+  flex: 0 0 17rem;
 }
 .feature::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    background: repeating-linear-gradient(180deg, var(--color-2) 0, var(--color-2) 5px, white 5px, white 10px);
-    width: 1px;
-    height: 100vh;
-    z-index: 0;
+  content: "";
+  position: absolute;
+  top: 0;
+  background: repeating-linear-gradient(
+    180deg,
+    var(--color-2) 0,
+    var(--color-2) 5px,
+    white 5px,
+    white 10px
+  );
+  width: 1px;
+  height: 100vh;
+  z-index: 0;
 }
 
 .feature__item {
-    margin: 0 1rem;
+  margin: 0 1rem;
 }
 
 .feature__item:not(.feature__icon) {
-    width: min(100%, 15rem);
+  width: min(100%, 15rem);
 }
 
 /* TYPOGRAPHY */
@@ -80,13 +87,14 @@ html {
   font-size: var(--font-size-large);
   font-weight: 800;
 }
-.feature__title, .feature__description {
-    color: var(--color-4);
-    font-size: var(--font-size-small);
-    letter-spacing: 1px;
+.feature__title,
+.feature__description {
+  color: var(--color-4);
+  font-size: var(--font-size-small);
+  letter-spacing: 1px;
 }
 
 .highlight {
-    color: var(--color-1);
-    font-weight: 600;
+  color: var(--color-1);
+  font-weight: 600;
 }
