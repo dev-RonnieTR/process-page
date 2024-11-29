@@ -22,6 +22,8 @@ html {
   --color-3: #ffffff;
   --color-4: #374151;
   --color-5: #6b7280;
+  --gap-1: 1rem;
+  --gap-2: 1.5rem;
 }
 
 .background, .heading {
@@ -30,12 +32,15 @@ html {
 }
 .heading {
     padding: 0 7%;
+    margin: var(--gap-2) 0;
+    overflow: hidden;
 }
 .heading__item {
     width: min(100%, 43rem);
+    margin: var(--gap-1) 0;
 }
 .content {
-    padding: 0 5%;
+    padding: var(--gap-2) 5%;
 }
 
 .content {
