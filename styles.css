@@ -24,6 +24,11 @@ html {
   --color-5: #6b7280;
 }
 
+.background, .heading {
+    position: relative;
+    z-index: 1;
+}
+
 .content {
     display: flex;
     flex-wrap: wrap;
