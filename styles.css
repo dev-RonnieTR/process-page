@@ -13,13 +13,13 @@ html {
 }
 
 :root {
-    --font-size-root: 16px;
-    --font-size-small: 1.125rem;
-    --font-size-medium: 1.5rem;
-    --font-size-large: 3rem;
-    --color-1: #6B59D0;
-    --color-2: #DEDDEB;
-    --color-3: #FFFFFF;
-    --color-4: #374151;
-    --color-5: #6B7280;
+  --font-size-root: 16px;
+  --font-size-small: 1.125rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 3rem;
+  --color-1: #6b59d0;
+  --color-2: #deddeb;
+  --color-3: #ffffff;
+  --color-4: #374151;
+  --color-5: #6b7280;
 }
