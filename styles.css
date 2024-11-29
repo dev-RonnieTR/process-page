@@ -24,6 +24,7 @@ html {
   --color-5: #6b7280;
   --gap-1: 1rem;
   --gap-2: 1.5rem;
+  --feature-min-width: 17.5rem;
 }
 
 .background,
@@ -50,14 +51,15 @@ html {
 }
 
 .flex-row {
-    flex: 1 1 35rem;
+    flex: 1 1 calc(var(--feature-min-width) * 2);
     display: flex;
     flex-wrap: wrap;
 }
 
 .feature {
-  flex: 1 0;
+  flex: 1 1 var(--feature-min-width);
 }
+
 .feature::before {
   content: "";
   position: absolute;
