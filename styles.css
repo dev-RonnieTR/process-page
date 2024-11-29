@@ -28,6 +28,15 @@ html {
     position: relative;
     z-index: 1;
 }
+.heading {
+    padding: 0 7%;
+}
+.heading__item {
+    width: min(100%, 43rem);
+}
+.content {
+    padding: 0 5%;
+}
 
 .content {
     display: flex;
