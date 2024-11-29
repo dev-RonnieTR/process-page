@@ -50,7 +50,7 @@ html {
 }
 
 .feature {
-  flex: 0 0 17rem;
+  flex: 0 0 18rem;
 }
 .feature::before {
   content: "";
