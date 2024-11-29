@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-size: var(--font-size-root);
+}
+
+:root {
+    --font-size-root: 16px;
+    --font-size-small: 1.125rem;
+    --font-size-medium: 1.5rem;
+    --font-size-large: 3rem;
+    --color-1: #6B59D0;
+    --color-2: #DEDDEB;
+    --color-3: #FFFFFF;
+    --color-4: #374151;
+    --color-5: #6B7280;
+}
