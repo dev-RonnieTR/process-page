@@ -30,9 +30,16 @@ html {
 }
 
 .feature {
-    flex: 0  14rem;
+    flex: 0 0 17rem;
 }
 
+.feature__item {
+    margin: 0 1rem;
+}
+
+.feature__item:not(.feature__icon) {
+    width: min(100%, 13rem);
+}
 
 /* TYPOGRAPHY */
 .small-title {
