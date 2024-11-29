@@ -27,6 +27,12 @@ html {
   --feature-min-width: 17.5rem;
 }
 
+.background, .background__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .background,
 .heading {
   position: relative;
