@@ -25,6 +25,7 @@ html {
   --gap-1: 1rem;
   --gap-2: 1.5rem;
   --feature-min-width: 17.5rem;
+  --purple-border: 2px;
 }
 
 .background, .background__img {
@@ -91,8 +92,14 @@ html, body {
     position: relative; /*To ensure .feature::before takes this as reference for positioning*/
 }
 
-.feature__item {
+.feature__item:not(.feature__title) {
   margin: 0 1rem;
+}
+.feature__title {
+    border-left: var(--purple-border) solid var(--color-1);
+    padding: 0 calc(1rem - var(--purple-border));
+    position: relative;
+    z-index: 1;
 }
 
 .feature__item:not(.feature__icon) {
