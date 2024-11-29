@@ -24,7 +24,7 @@ html {
   --color-5: #6b7280;
   --gap-1: 1rem;
   --gap-2: 1.5rem;
-  --flex-basis: 18rem;
+  --feature-width: 18rem;
 }
 
 .background,
@@ -51,13 +51,13 @@ html {
 }
 
 .flex-row {
-    flex: 0 1 calc(var(--flex-basis) * 2);
+    flex: 0 1 calc(var(--feature-width) * 2);
     display: flex;
     flex-wrap: wrap;
 }
 
 .feature {
-  flex: 0 0 var(--flex-basis);
+  flex: 0 0 var(--feature-width);
 }
 .feature::before {
   content: "";
