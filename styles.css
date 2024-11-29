@@ -41,7 +41,7 @@ html {
 }
 .heading {
   padding: 0 7%;
-  margin: var(--gap-2) 0;
+  margin: 0 0 var(--gap-2);
   overflow: hidden;
 }
 .heading__item {
